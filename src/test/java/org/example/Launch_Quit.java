@@ -15,15 +15,15 @@ public class Launch_Quit
     @BeforeMethod
     public void launch()
     {
-        driver = new EdgeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.spicejet.com/");
     }
 
-   /* @AfterMethod
+   @AfterMethod
     public void quit()
     {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.quit();
-    }*/
+    }
 }

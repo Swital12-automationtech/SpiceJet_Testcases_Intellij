@@ -36,8 +36,8 @@ public class RegistrationPage {
     WebElement pass;
     @FindBy(id = "c-password")
     WebElement confirmpass;
-    @FindBy(xpath ="//div[@class='form-check']//input")
-    WebElement checkbox;
+   // @FindBy(xpath ="//div[@class='form-check']//input")
+  //  WebElement checkbox;
 
     public void registrationnew() {
         signuplink.click();
@@ -60,8 +60,8 @@ public class RegistrationPage {
         Thread.sleep(2000);
         pass.sendKeys("Ab@123456");
         confirmpass.sendKeys("Ab@123456");
-        Thread.sleep(2000);
-        checkbox.click();
+        //Thread.sleep(2000);
+       // checkbox.click();
 
     }
 }
