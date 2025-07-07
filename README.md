@@ -1,4 +1,4 @@
-# ✈️ Airline Booking Test Automation Framework
+#  Airline Booking Test Automation Framework
 
 This project is a Selenium-based test automation framework developed in **Java** using **Maven** and IntelliJ IDEA. It simulates a few critical user flows for an airline booking application, such as **flight search and login validation**.
 
@@ -6,7 +6,7 @@ The structure follows best practices with separation of concerns (Page classes, 
 
 ---
 
-## 🚀 Tools & Technologies
+## Tools & Technologies
 
 | Component       | Description                          |
 |----------------|--------------------------------------|
